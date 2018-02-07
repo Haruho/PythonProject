@@ -10,10 +10,8 @@ s= 0
 Tn = []
 for i in range(1,x+1):
     num = y*(math.pow(10,i-1)) + num
+    Tn.append(num)
     print(num)
 
-#Tn = reduce(lambda x,y:x+y,Tn) reduce没定义。。。？？？
-for i in Tn:
-    s = s+i
 
-print(s)
+print('这些数字的和是',sum(Tn))
