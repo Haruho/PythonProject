@@ -12,3 +12,6 @@ y = ['a','b','c']
 # print(4 or 7 in x)  #4
 
 print(x + y) #[1,2,3,4,5,a,b,c]
+
+
+

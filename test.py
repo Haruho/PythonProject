@@ -1,8 +1,7 @@
-def func():
-    for i in range(1,10):
-        print(i)
+import hashlib
+import unicodedata
+ss = "123456"
 
-    #全部都在for语句中？
-    print("Hello world")
+a =  str(b(ss),'utf-8')
 
-func()
+print(a)
